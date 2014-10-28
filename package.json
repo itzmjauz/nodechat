@@ -1,15 +1,15 @@
 {
   "name": "nodesocket",
   "version": "1.0.0",
-  "description": "a simple socket chat client",
-  "main": "index.js",
+  "description": "a simple socket chat server/client setup",
+  "main": "server.js",
   "dependencies": {
     "express": "^4.10.0",
     "socket.io": "^1.1.0"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "node index.js"
+    "test": "node server.js"
   },
   "author": "itzmjauz",
   "license": "ISC"
